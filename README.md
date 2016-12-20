@@ -1,5 +1,4 @@
 # CA-Stormwater-Data-Challenge
-Visualize potential dry-weather runoff contributing areas to identify prioritization for areas to target
 
 The Urban Drool Tool:
 
