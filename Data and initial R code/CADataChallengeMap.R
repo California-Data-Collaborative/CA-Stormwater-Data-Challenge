@@ -1,5 +1,5 @@
 #set path to project directory
-setwd("C:/Users/avanjavakam/Desktop/R_Home/CA DATA CHALLENGE")
+setwd("../CA DATA CHALLENGE")
 
 library(sp) #readOGR
 library(shiny)
