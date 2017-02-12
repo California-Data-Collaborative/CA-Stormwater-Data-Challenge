@@ -1,1 +1,11 @@
 theme: jekyll-theme-slate
+exclude: [data_and_initial_r_code]
+title: "Urban Drool Tool"
+description: "An Inter-Agency Collaboration Between Moulton Niguel Water
+  District, Orange County Public Works, the California Data Collaborative, and
+  CodeLab OC"
+github:
+  repository_url: "https://github.com/codelaboc/CA-Stormwater-Data-Challenge"
+  is_project_page: true
+  owner_url: "https://github.com/codelaboc"
+  owner_name: "CodeLab OC"
