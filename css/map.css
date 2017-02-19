@@ -5,7 +5,7 @@
     padding: 0px;
     margin: 0px;
 }
-  .map {
+  #map {
     width: 100vw;
     height: 70vh;
     /*height: calc(100vh - 200px);*/
