@@ -1,0 +1,15 @@
+#main_content {
+    padding-top: 0px;
+}
+.inner {
+    padding: 0px;
+    margin: 0px;
+}
+  .map {
+    width: 100vw;
+    height: 70vh;
+    /*height: calc(100vh - 200px);*/
+
+    /* This rule overrides the previous one, in browsers that understand "calc" */
+    /*height: calc(100vh - {{ height of the map goes here. For example: 200px }});*/
+  }
