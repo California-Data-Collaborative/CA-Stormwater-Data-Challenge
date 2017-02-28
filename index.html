@@ -2,4 +2,13 @@
 layout: default
 title: Urban Drool Tool
 ---
-<div style = "display: none">Insert map here <3 </div>
+<div id='map'></div>
+<script>
+  mapboxgl.accessToken = 'pk.eyJ1IjoiY29kZWxhYm9jIiwiYSI6ImNpemJwejRhNzEzNHMyd3A5Nm8yYXQxN2IifQ.ihRBC2Z8a17VlBvEq0UzQA'
+  var map = new mapboxgl.Map({
+    container: 'map',
+    style: 'mapbox://styles/codelaboc/cizbsaj8500562ro0wpe03pqy',
+    center: [-117.707456, 33.564019],
+    zoom: 12
+  });
+</script>
