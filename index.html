@@ -15,10 +15,12 @@ title: Urban Drool Tool
   });
 
   var geocoder = new MapboxGeocoder({
-      accessToken: mapboxgl.accessToken
+      accessToken: mapboxgl.accessToken,
+      bbox: [-117.8,33.4,-117.5,33.7]
   })
 
   map.addControl(geocoder);
+  map.addControl(new mapboxgl.NavigationControl());
 
   // After the map style has loaded on the page, add a source layer and default
   // styling for a single point.
