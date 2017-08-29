@@ -30,7 +30,7 @@
     <!-- HEADER -->
     <div id="header_wrap" class="outer flex">
         <header class=" flex grow-1">
-          <h1 id="project_title">
+          <h1 id="project_title" class="space_from_left">
             {{ site.title | default: site.github.repository_name }}
           </h1>
         </header>
@@ -47,7 +47,7 @@
     <div id="footer_wrap" class="outer">
       <footer class="inner">
         {% if site.github.is_project_page %}
-        <p class="copyright">
+        <p class="copyright" class="space_from_left">
           {{ site.title | default: site.github.repository_name }} maintained by
           <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>
         </p>
