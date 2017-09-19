@@ -1,12 +1,44 @@
 ---
 ---
 
-.flex {
+/* .flex {
   display: flex;
 }
 .grow-1 {
   flex-grow: 1;
+} */
+#header_wrap {
+  position: absolute;
+  z-index: 1;
 }
+
+h1, p.copyright{
+  margin: 0;
+  padding: 0.75em 1.5em;
+  font-size: inherit;
+  font-weight: inherit;
+  background-color: rgba(255,255,255,0.75);
+}
+
+
+
+#footer_wrap {
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
+}
+
+body {
+  margin: 0;
+  font: 100%/1.5 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
 .transparent {
   background-color: transparent;
+}
+
+@media(max-width: 35em) {
+  #header_wrap {
+    left: -99999em;
+  }
 }

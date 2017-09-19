@@ -1,4 +1,3 @@
-theme: jekyll-theme-slate
 exclude: [data_and_initial_r_code]
 title: "Urban Drool Tool"
 description: "An Inter-Agency Collaboration Between Moulton Niguel Water

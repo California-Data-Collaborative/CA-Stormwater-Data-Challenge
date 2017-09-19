@@ -7,7 +7,7 @@
 }
   #map {
     width: 100vw;
-    height: 70vh;
+    height: 100vh;
     /*height: calc(100vh - 200px);*/
 
     /* This rule overrides the previous one, in browsers that understand "calc" */
