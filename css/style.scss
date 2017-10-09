@@ -37,8 +37,13 @@ body {
   background-color: transparent;
 }
 
+.space_from_left {
+	padding-left: 80px;
+}
+
 @media(max-width: 35em) {
   #header_wrap {
     left: -99999em;
   }
 }
+
